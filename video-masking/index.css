@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: darkslategrey;
+}
+
+.front-layer {
+    height: 100vh;
+}
+
+text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8rem;
+    font-weight: 900;
+    transition: 1s;
+}
+
+#veggen {
+    mask: url(#mask);
+}
+
+@media (max-width: 1000px) {
+    text {
+        font-size: 6rem;
+    }
+}
